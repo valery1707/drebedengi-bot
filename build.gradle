@@ -111,6 +111,9 @@ dependencies {
 	//Bot engine
 	compile 'com.github.pengrad:java-telegram-bot-api:2.1.1'
 
+	//HTTP client
+	compile 'com.squareup.okhttp3:okhttp:3.4.1'
+
 	//Cache
 	compile 'com.github.ben-manes.caffeine:caffeine:2.3.0'
 
