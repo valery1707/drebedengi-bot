@@ -23,9 +23,12 @@ public class StartCmd extends RegexpCommand {
 		bot.execute(
 				new SendMessage(message.chat().id(), "Welcome to Drebedengi Bot.")
 						.parseMode(ParseMode.Markdown)
-						.replyMarkup(new ReplyKeyboardMarkup(
-								new String[]{"/login", "/logout"}
-						))
+						.replyMarkup(
+								new ReplyKeyboardMarkup(
+										new String[]{"/login", "/logout"}
+								)
+										.oneTimeKeyboard(true)
+						)
 		);
 	}
 }
