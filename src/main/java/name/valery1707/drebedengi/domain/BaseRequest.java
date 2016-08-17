@@ -63,6 +63,9 @@ public class BaseRequest {
 	}
 
 	protected void append(StringBuilder str, String name, Map<String, Object> value) {
+		if (value.isEmpty()) {
+			return;
+		}
 		append(str, name, "ns2:Map", b -> value.entrySet().forEach(
 				e -> {
 					b.append("<item>");

@@ -1,0 +1,5021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:ddengi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+				   xmlns:ns2="http://xml.apache.org/xml-soap"
+				   SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:getRecordListResponse>
+			<getRecordListReturn xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:int">53133</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53133</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40010</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 18:43:10</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">бизнес-ланч</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-23500</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53131</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53131</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40024</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 12:38:38</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">брату на мобильный</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-30000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">72942447</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">72942447</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 12:09:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">72942446</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40030</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">10000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">72942446</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">72942446</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">72942446</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40030</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 12:09:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">72942447</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-10000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">72942447</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">72932086</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">72932086</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">41061</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 09:33:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-100000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">72935409</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">72935409</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40013</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 09:29:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">19</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-60000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52392</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52392</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 01:18:55</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">аванс за прошлый мес.. мало из-за отпуска.</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2374000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">48360</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">48360</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 01:18:04</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">за прошлый месяц почему-то меньше. Надо разобраться.</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2572100</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53132</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53132</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40009</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-17 01:03:35</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">сосиски</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-16000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53115</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53115</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40046</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-16 23:34:34</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">мойка тормозуха</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-35500</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53117</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53117</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40008</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-16 19:48:45</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">футболка</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-25000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53114</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53114</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40017</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-16 02:24:16</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">паста</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-3300</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53112</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53112</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-16 02:13:59</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">53111</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">100000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">53111</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53111</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53111</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-16 02:13:59</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">53112</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-100000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">53112</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53128</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53128</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40009</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-15 22:10:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-1300</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">53116</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">53116</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40002</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-15 19:37:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">бананы клубника капуста помидоры огурцы</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-28400</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52969</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52969</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40018</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-14 23:22:19</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">пиво живое</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-7300</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52968</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52968</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40016</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-14 23:22:06</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">2 кефира тане</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-8900</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52967</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52967</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40010</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-14 23:21:29</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">салат в 7-м континенте.. офигеть дорогущий. больше не буду брать.</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-21000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52966</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52966</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40024</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-14 23:19:57</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">мне на телефон</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40040</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-50000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52889</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52889</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40049</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-14 19:25:11</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">30 литров</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-59400</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52887</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52887</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40010</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-14 19:24:58</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-22000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52680</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52680</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40002</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-13 23:59:12</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">кетчуп</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-4200</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52679</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52679</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40002</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-13 23:57:41</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">лимоны</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-2000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52678</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52678</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40015</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-13 23:57:32</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">хлеб</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-1000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">52677</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">52677</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40016</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-13 23:57:20</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">масло</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">3</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-5000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">51156</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">51156</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-08 20:59:34</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">51155</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">51155</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">51155</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">51155</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-08 20:59:34</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">51156</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">51156</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">51154</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">51154</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-08 20:59:25</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">51153</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">100000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">51153</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">51153</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">51153</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-08 20:59:25</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">51154</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-100000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">51154</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">49584</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">49584</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-03 19:29:06</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">49583</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">1000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">49583</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">49583</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">49583</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-03 19:29:06</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">49584</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-1000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">49584</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">49186</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">49186</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-02 16:36:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">49185</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">300000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">49185</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">49185</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">49185</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-08-02 16:36:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">49186</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-300000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">49186</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">48795</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">48795</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-31 18:03:41</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">обратно недощитал</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">48794</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">100000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">48794</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">48794</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">48794</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-31 18:03:41</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">обратно недощитал</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">48795</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-100000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">48795</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">48640</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">48640</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-30 22:59:38</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">2000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">48639</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">48639</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">48639</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">48639</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-30 22:59:38</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">2000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">48640</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">48640</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">48316</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">48316</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-29 19:14:19</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">48315</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">48315</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">48315</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">48315</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-29 19:14:19</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">48316</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">48316</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">47973</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">47973</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-28 14:19:24</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">47972</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">47972</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">47972</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">47972</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-28 14:19:24</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">47973</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">47973</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">47333</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">47333</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40042</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-26 00:48:33</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">какие то проценты</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">12100</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">45461</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">45461</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-19 22:10:27</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">45460</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">45460</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">45460</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">45460</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-19 22:10:27</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">45461</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">45461</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">45372</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">45372</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-19 17:00:48</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">45371</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">45371</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">45371</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">45371</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-19 17:00:47</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">45372</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">45372</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">45268</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">45268</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40040</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-18 19:17:51</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">45267</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">6000000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">45267</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">45267</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">45267</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-18 19:17:51</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">45268</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40040</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-6000000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">45268</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">45230</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">45230</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-18 12:22:06</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">45229</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">9400000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">45229</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">45229</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">45229</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-18 12:22:06</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">45230</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-9400000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">45230</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">44428</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">44428</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-15 23:14:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">44427</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">44427</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">44427</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">44427</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-15 23:14:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">44428</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">44428</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">44142</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">44142</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-14 23:29:53</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">аванс за октябрь</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2200000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">44141</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">44141</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-14 23:29:23</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">44140</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">9200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">44140</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">44140</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">44140</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-14 23:29:23</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">44141</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-9200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">44141</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">43374</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">43374</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-12 20:34:27</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">43373</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">43373</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">43373</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">43373</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-12 20:34:27</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">43374</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">43374</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">42112</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">42112</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-08 01:15:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">з.п. проекты</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2371500</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">42640</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">42640</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-06 19:43:47</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">42639</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">42639</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">42639</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">42639</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-06 19:43:47</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">42640</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">42640</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">42516</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">42516</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-05 10:48:05</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">42515</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">42515</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">42515</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">42515</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-05 10:48:05</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">42516</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">42516</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">42484</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">42484</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-04 13:35:44</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">42483</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">100000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">42483</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">42483</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">42483</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-07-04 13:35:43</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">42484</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">4</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-100000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_move_id</key>
+							<value xsi:type="xsd:string">42484</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">40227</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">40227</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-06-12 13:39:05</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2200000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">39765</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">39765</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-06-03 01:15:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">зп за июль</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2371500</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">39582</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">39582</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-05-12 12:24:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">остатки свёл.</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">431300</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">39581</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">39581</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-05-12 12:24:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">аванс за июль</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2200000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">39621</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">39621</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-05-06 01:15:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">з.п. за июнь</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">41439</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">3000000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">38900</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">38900</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-04-16 22:21:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">снял в банкомате в мосмарте</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">500000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">38754</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">38754</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-03-31 01:22:00</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">дали отпускные всязи с пертурбацией</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">3000000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">38536</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">38536</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-03-30 21:16:30</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">снял 1000 с карты в Щуке</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40032</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">100000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">38506</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">38506</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-03-28 14:00:07</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">5085000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">38090</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">38090</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-03-13 21:17:40</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">2-я часть аванса + 7 за распознавалку.</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">1900000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">38065</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">38065</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-03-13 08:50:31</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">часть аванса</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">3000000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">37693</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">37693</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-02-29 13:59:10</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">з.п. за апрель</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">4500000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">37413</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">37413</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-02-16 08:29:12</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">аванс за апрель</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2500000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">37025</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">37025</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-01-31 21:25:15</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">остаток з.п. за апрель</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2200000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">36958</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">36958</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40036</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2016-01-28 22:00:33</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">снял часть денег за март</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">2</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40034</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">2000000</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">34241</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">34241</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40040</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2015-09-13 04:20:51</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">обмен валют, 53300 руб.</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">18</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">t</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">34240</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40040</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">200000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_change_id</key>
+							<value xsi:type="xsd:string">34240</value>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">34240</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">id</key>
+							<value xsi:type="xsd:string">34240</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_object_id</key>
+							<value xsi:type="xsd:string">40040</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">user_nuid</key>
+							<value xsi:type="xsd:string">1000000000539</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">budget_family_id</key>
+							<value xsi:type="xsd:string">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_duty</key>
+							<value xsi:type="xsd:string">f</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_date</key>
+							<value xsi:type="xsd:string">2015-09-13 04:20:51</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">comment</key>
+							<value xsi:type="xsd:string">обмен валют, 2К баксов</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">currency_id</key>
+							<value xsi:type="xsd:string">17</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">group_id</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">is_currency_change</key>
+							<value xsi:type="xsd:string">t</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">id2</key>
+							<value xsi:type="xsd:string">34241</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">operation_type</key>
+							<value xsi:type="xsd:int">5</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">place_id</key>
+							<value xsi:type="xsd:string">40040</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">sum</key>
+							<value xsi:type="xsd:string">-5330000</value>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">server_change_id</key>
+							<value xsi:type="xsd:string">34241</value>
+						</item>
+					</value>
+				</item>
+			</getRecordListReturn>
+		</ns1:getRecordListResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

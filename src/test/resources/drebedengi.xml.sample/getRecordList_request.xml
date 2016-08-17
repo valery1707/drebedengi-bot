@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+				   xmlns:ns1="urn:ddengi" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+				   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				   xmlns:ns2="http://xml.apache.org/xml-soap"
+				   SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:getRecordList>
+			<apiId xsi:type="xsd:string">demo_api</apiId>
+			<login xsi:type="xsd:string">demo@example.com</login>
+			<pass xsi:type="xsd:string">demo</pass>
+			<params xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:string">is_report</key>
+					<value xsi:type="xsd:boolean">false</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">is_show_duty</key>
+					<value xsi:type="xsd:boolean">true</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">r_period</key>
+					<value xsi:type="xsd:int">8</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">r_how</key>
+					<value xsi:type="xsd:int">1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">r_what</key>
+					<value xsi:type="xsd:int">6</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">r_currency</key>
+					<value xsi:type="xsd:int">0</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">r_is_place</key>
+					<value xsi:type="xsd:int">0</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">r_is_tag</key>
+					<value xsi:type="xsd:int">0</value>
+				</item>
+			</params>
+		</ns1:getRecordList>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
