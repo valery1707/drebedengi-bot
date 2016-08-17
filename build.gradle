@@ -108,6 +108,9 @@ dependencies {
 	//Database migration tool
 	compile 'org.flywaydb:flyway-core:4.0.1'
 
+	//Bot engine
+	compile 'com.github.pengrad:java-telegram-bot-api:2.1.1'
+
 	//Cache
 	compile 'com.github.ben-manes.caffeine:caffeine:2.3.0'
 
