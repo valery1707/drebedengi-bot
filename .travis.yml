@@ -5,3 +5,4 @@ jdk:
 
 after_success:
   - ./gradlew jacocoTestReport coveralls
+  - ./gradlew -Pversioneye.projectid=${VERSION_EYE__PROJECT_ID} -Pversioneye.api_key=${VERSION_EYE__API_KEY} versionEyeUpdate
