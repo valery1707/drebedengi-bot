@@ -1,5 +1,9 @@
 package name.valery1707.drebedengi.bot;
 
+import javaslang.Tuple;
+import javaslang.Tuple2;
+import javaslang.collection.LinkedHashMap;
+import javaslang.collection.List;
 import javaslang.control.Try;
 import name.valery1707.drebedengi.domain.GetAccessStatus;
 import name.valery1707.drebedengi.domain.GetAccessStatusResponse;
@@ -9,6 +13,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.net.URL;
+import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -95,5 +100,31 @@ public class DrebedengiTest {
 		assertThat(response.get().getValue())
 				.hasSize(2)
 				.containsOnlyKeys(53133, 53131);
+	}
+
+	@Test
+	public void testRecordList_filterByPlaces() throws Exception {
+		List<Integer> places = List.of(40040, 41439);
+		Try<GetRecordListResponse> response = drebedengi.request(
+				new GetRecordList()
+						.withParam("is_report", false)// Data not for report, but for export
+						.withParam("is_show_duty", true)// Include duty records
+						.withParam("r_period", 8)// Show last 20 record (for each operation type, if not one, see 'r_what')
+						.withParam("r_how", 1)// Show by detail, not grouped
+						.withParam("r_what", 3)// waste
+						.withParam("r_currency", 0)// Show in original currency
+						.withParam("r_is_place", 1)// Include only selected
+						.withParam("r_is_tag", 0)// All tags
+						.withParam("r_place", places)
+				, GetRecordListResponse::new);
+		assertThat(response.isSuccess()).isTrue();
+		assertThat(response.get()).isNotNull();
+		assertThat(response.get().getFailMessage()).isNullOrEmpty();
+		assertThat(response.get().getFailCode()).isNull();
+		assertThat(response.get().isSuccess()).isTrue();
+		LinkedHashMap<Integer, Map<String, String>> value = LinkedHashMap.ofAll(response.get().getValue());
+		assertThat(value.map((id, entry) -> Tuple.of(id, entry.get("place_id"))).toList().map(Tuple2::_2).map(Integer::valueOf)).containsOnlyElementsOf(places);
+		assertThat(response.get().getValue())
+				.hasSize(20);
 	}
 }

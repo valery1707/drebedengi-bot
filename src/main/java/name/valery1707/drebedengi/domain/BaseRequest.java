@@ -1,11 +1,11 @@
 package name.valery1707.drebedengi.domain;
 
-import java.util.Collection;
+import javaslang.collection.List;
+
 import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -63,6 +63,8 @@ public class BaseRequest {
 			append(str, name, (Boolean) value);
 		} else if (value instanceof Integer) {
 			append(str, name, (Integer) value);
+		} else if (value instanceof Iterable) {
+			append(str, name, (Iterable) value);
 		} else {
 			append(str, name, "xsd:string", b -> b.append(value.toString()));
 		}
@@ -86,12 +88,16 @@ public class BaseRequest {
 		));
 	}
 
-	protected <T> void append(StringBuilder str, String name, Collection<T> list) {
-		if (list == null || list.isEmpty() || list.stream().allMatch(Objects::isNull)) {
+	protected <T> void append(StringBuilder str, String name, Iterable<T> iterable) {
+		if (iterable == null) {
+			return;
+		}
+		List<T> list = List.ofAll(iterable);
+		if (list.isEmpty() || list.forAll(Objects::isNull)) {
 			return;
 		}
 		int size = list.size();
-		T first = list.stream().filter(Objects::nonNull).findFirst().get();
+		T first = list.find(Objects::nonNull).get();
 		String type;
 		if (first instanceof String) {
 			type = "xsd:string";
@@ -105,9 +111,9 @@ public class BaseRequest {
 		String arrayType = String.format("SOAP-ENC:arrayType=\"%s[%d]\"", type, size);
 		append(str, name, new String[]{arrayType, "xsi:type=\"SOAP-ENC:Array\""}, s -> {
 			s.append("\n");
-			list.stream()
+			list
 					.filter(Objects::nonNull)
-					.forEachOrdered(item -> append(s, "item", item));
+					.forEach(item -> append(s, "item", item));
 		});
 	}
 
