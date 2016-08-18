@@ -64,7 +64,7 @@ public class BaseRequest {
 		} else if (value instanceof Integer) {
 			append(str, name, (Integer) value);
 		} else {
-			append(str, name, "xsd:anyType", b -> b.append(value.toString()));
+			append(str, name, "xsd:string", b -> b.append(value.toString()));
 		}
 	}
 
@@ -93,26 +93,21 @@ public class BaseRequest {
 		int size = list.size();
 		T first = list.stream().filter(Objects::nonNull).findFirst().get();
 		String type;
-		Function<T, ?> mapper;
 		if (first instanceof String) {
 			type = "xsd:string";
-			mapper = o -> (String) o;
 		} else if (first instanceof Boolean) {
 			type = "xsd:boolean";
-			mapper = o -> (Boolean) o;
 		} else if (first instanceof Integer) {
 			type = "xsd:int";
-			mapper = o -> (Integer) o;
 		} else {
 			type = "xsd:string";
-			mapper = Object::toString;
 		}
 		String arrayType = String.format("SOAP-ENC:arrayType=\"%s[%d]\"", type, size);
 		append(str, name, new String[]{arrayType, "xsi:type=\"SOAP-ENC:Array\""}, s -> {
 			s.append("\n");
 			list.stream()
 					.filter(Objects::nonNull)
-					.forEachOrdered(item -> append(s, "item", mapper.apply(item)));
+					.forEachOrdered(item -> append(s, "item", item));
 		});
 	}
 
