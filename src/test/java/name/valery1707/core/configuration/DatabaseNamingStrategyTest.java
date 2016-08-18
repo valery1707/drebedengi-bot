@@ -11,6 +11,7 @@ public class DatabaseNamingStrategyTest {
 	public void testCamelCaseToUnderscores() throws Exception {
 		assertEquals("parentFuid", "parent_fuid", toUnderscores("parentFuid"));
 		assertEquals("md5", "md5", toUnderscores("md5"));
+		assertEquals("SHA", "SHA", toUnderscores("SHA"));
 	}
 
 	private String toUnderscores(String text) {
