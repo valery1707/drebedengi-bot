@@ -66,9 +66,34 @@ public class DrebedengiTest {
 				GetRecordListResponse::new);
 		assertThat(response.isSuccess()).isTrue();
 		assertThat(response.get()).isNotNull();
-		assertThat(response.get().isSuccess()).isTrue();
-		assertThat(response.get().getFailCode()).isNull();
 		assertThat(response.get().getFailMessage()).isNullOrEmpty();
+		assertThat(response.get().getFailCode()).isNull();
+		assertThat(response.get().isSuccess()).isTrue();
 		assertThat(response.get().getValue()).hasSize(82);
+	}
+
+	@Test
+	public void testRecordList_filterById() throws Exception {
+		Try<GetRecordListResponse> response = drebedengi.request(
+				new GetRecordList()
+						.withParam("is_report", false)// Data not for report, but for export
+						.withParam("is_show_duty", true)// Include duty records
+						.withParam("r_period", 8)// Show last 20 record (for each operation type, if not one, see 'r_what')
+						.withParam("r_how", 1)// Show by detail, not grouped
+						.withParam("r_what", 6)// Show all operations (waste, income, moves and currency changes)
+						.withParam("r_currency", 0)// Show in original currency
+						.withParam("r_is_place", 0)// All places
+						.withParam("r_is_tag", 0)// All tags
+						.withId(53133)
+						.withId(53131)
+				, GetRecordListResponse::new);
+		assertThat(response.isSuccess()).isTrue();
+		assertThat(response.get()).isNotNull();
+		assertThat(response.get().getFailMessage()).isNullOrEmpty();
+		assertThat(response.get().getFailCode()).isNull();
+		assertThat(response.get().isSuccess()).isTrue();
+		assertThat(response.get().getValue())
+				.hasSize(2)
+				.containsOnlyKeys(53133, 53131);
 	}
 }

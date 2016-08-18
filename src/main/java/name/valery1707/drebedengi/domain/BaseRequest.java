@@ -1,7 +1,13 @@
 package name.valery1707.drebedengi.domain;
 
+import java.util.Collection;
 import java.util.Map;
+import java.util.Objects;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class BaseRequest {
 	private String apiId;
@@ -63,11 +69,15 @@ public class BaseRequest {
 	}
 
 	protected void append(StringBuilder str, String name, Map<String, Object> value) {
-		if (value.isEmpty()) {
+		if (value == null || value.isEmpty()) {
 			return;
 		}
+		AtomicBoolean isFirst = new AtomicBoolean(true);
 		append(str, name, "ns2:Map", b -> value.entrySet().forEach(
 				e -> {
+					if (isFirst.compareAndSet(true, false)) {
+						b.append("\n");
+					}
 					b.append("<item>");
 					append(b, "key", e.getKey());
 					append(b, "value", e.getValue());
@@ -76,8 +86,44 @@ public class BaseRequest {
 		));
 	}
 
+	protected <T> void append(StringBuilder str, String name, Collection<T> list) {
+		if (list == null || list.isEmpty() || list.stream().allMatch(Objects::isNull)) {
+			return;
+		}
+		int size = list.size();
+		T first = list.stream().filter(Objects::nonNull).findFirst().get();
+		String type;
+		Function<T, ?> mapper;
+		if (first instanceof String) {
+			type = "xsd:string";
+			mapper = o -> (String) o;
+		} else if (first instanceof Boolean) {
+			type = "xsd:boolean";
+			mapper = o -> (Boolean) o;
+		} else if (first instanceof Integer) {
+			type = "xsd:int";
+			mapper = o -> (Integer) o;
+		} else {
+			type = "xsd:string";
+			mapper = Object::toString;
+		}
+		String arrayType = String.format("SOAP-ENC:arrayType=\"%s[%d]\"", type, size);
+		append(str, name, new String[]{arrayType, "xsi:type=\"SOAP-ENC:Array\""}, s -> {
+			s.append("\n");
+			list.stream()
+					.filter(Objects::nonNull)
+					.forEachOrdered(item -> append(s, "item", mapper.apply(item)));
+		});
+	}
+
 	protected void append(StringBuilder str, String name, String type, Consumer<StringBuilder> valueWriter) {
-		str.append("<").append(name).append(" xsi:type=\"").append(type).append("\">");
+		append(str, name, new String[]{"xsi:type=\"" + type + "\""}, valueWriter);
+	}
+
+	protected void append(StringBuilder str, String name, String[] attrs, Consumer<StringBuilder> valueWriter) {
+		str.append("<").append(name);
+		str.append(Stream.of(attrs).collect(Collectors.joining(" ", " ", "")));
+		str.append(">");
 		valueWriter.accept(str);
 		str.append("</").append(name).append(">\n");
 	}

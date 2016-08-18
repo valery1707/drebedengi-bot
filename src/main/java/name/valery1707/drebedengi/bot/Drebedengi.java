@@ -37,11 +37,14 @@ public class Drebedengi {
 
 	private static final String SOAP_REQ_PREFIX =
 			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
-			"<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"\n" +
-			"\t\t\t\t   xmlns:ns1=\"urn:ddengi\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\n" +
-			"\t\t\t\t   xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" +
-			"\t\t\t\t   xmlns:ns2=\"http://xml.apache.org/xml-soap\"\n" +
-			"\t\t\t\t   SOAP-ENV:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">\n" +
+			"<SOAP-ENV:Envelope\n" +
+			"\t\txmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"\n" +
+			"\t\txmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\n" +
+			"\t\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" +
+			"\t\txmlns:ns1=\"urn:ddengi\"\n" +
+			"\t\txmlns:ns2=\"http://xml.apache.org/xml-soap\"\n" +
+			"\t\txmlns:SOAP-ENC=\"http://schemas.xmlsoap.org/soap/encoding/\"\n" +
+			"\t\tSOAP-ENV:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">\n" +
 			"\t<SOAP-ENV:Body>";
 	private static final String SOAP_REQ_SUFFIX =
 			"\t</SOAP-ENV:Body>\n" +
@@ -66,6 +69,7 @@ public class Drebedengi {
 					.newCall(
 							new Request.Builder()
 									.url(conf.getApi().getUrl())
+									.header("SOAPAction", "\"urn:SoapAction\"")
 									.post(RequestBody.create(SOAP, soap))
 									.build()
 					)
