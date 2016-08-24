@@ -121,7 +121,7 @@ dependencies {
 	compile 'com.samskivert:jmustache:1.12'
 
 	//Improved Java lib
-	compile 'io.javaslang:javaslang:2.0.2'
+	compile 'io.javaslang:javaslang:2.0.3'
 
 	//Useful annotations
 	compile 'com.google.code.findbugs:jsr305:3.0.1'
