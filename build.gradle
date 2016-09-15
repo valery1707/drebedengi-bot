@@ -32,7 +32,6 @@ buildscript {
 }
 apply plugin: 'spring-boot'
 //http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-customize-dependency-versions
-ext['jetty.version'] = '9.2.19.v20160908'//todo Upgrade to 9.3.x after https://github.com/spring-projects/spring-boot/issues/5287
 
 apply plugin: 'jacoco'
 apply plugin: 'com.github.kt3k.coveralls'
@@ -97,8 +96,7 @@ dependencies {
 
 	//Servlet container
 	compile 'javax.servlet:javax.servlet-api:3.1.0'
-	providedRuntime 'org.eclipse.jetty:jetty-webapp:9.2.19.v20160908'
-	providedRuntime 'org.eclipse.jetty:jetty-servlets:9.2.19.v20160908'//todo remove in Jetty 9.3.x
+	providedRuntime 'org.eclipse.jetty:jetty-webapp:9.3.12.v20160915'
 
 	//JDBC driver (and implicit in-memory database server)
 	runtime 'com.h2database:h2:1.4.192'
