@@ -96,7 +96,7 @@ dependencies {
 
 	//Servlet container
 	compile 'javax.servlet:javax.servlet-api:3.1.0'
-	providedRuntime 'org.eclipse.jetty:jetty-webapp:9.3.12.v20160915'
+	providedRuntime 'org.eclipse.jetty:jetty-webapp:9.3.13.v20161014'
 
 	//JDBC driver (and implicit in-memory database server)
 	runtime 'com.h2database:h2:1.4.192'
