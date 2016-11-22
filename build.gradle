@@ -128,7 +128,7 @@ dependencies {
 
 	//Validation
 	compile 'javax.validation:validation-api:1.1.0.Final'
-	compile 'org.hibernate:hibernate-validator:5.3.2.Final'
+	compile 'org.hibernate:hibernate-validator:5.3.3.Final'
 	compile 'javax.el:javax.el-api:3.0.0'
 
 	//Testing
