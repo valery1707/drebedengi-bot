@@ -27,7 +27,7 @@ applicationName = project.name
 
 buildscript {
 	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.0.RELEASE")
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
 	}
 }
 apply plugin: 'org.springframework.boot'
@@ -68,8 +68,8 @@ dependencies {
 	//Spring
 	compile "org.springframework:spring-context:4.3.6.RELEASE"
 	compile "org.springframework:spring-webmvc:4.3.6.RELEASE"
-	compile "org.springframework.boot:spring-boot:1.5.0.RELEASE"
-	compile "org.springframework.boot:spring-boot-autoconfigure:1.5.0.RELEASE"
+	compile "org.springframework.boot:spring-boot:1.5.1.RELEASE"
+	compile "org.springframework.boot:spring-boot-autoconfigure:1.5.1.RELEASE"
 
 	//Spring security
 	compile "org.springframework.security:spring-security-config:4.2.1.RELEASE"
