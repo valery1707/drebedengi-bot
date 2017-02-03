@@ -56,6 +56,7 @@ public class BaseRequest {
 		append(str, name, "xsd:int", b -> b.append(value.toString()));
 	}
 
+	@SuppressWarnings("unchecked")
 	protected void append(StringBuilder str, String name, Object value) {
 		if (value instanceof String) {
 			append(str, name, (String) value);
