@@ -63,7 +63,7 @@ dependencies {
 	compile 'org.apache.commons:commons-lang3:3.5'
 	compile 'commons-net:commons-net:3.6'
 	compile 'commons-io:commons-io:2.5'
-	compile 'commons-validator:commons-validator:1.5.1'
+	compile 'commons-validator:commons-validator:1.6'
 
 	//Spring
 	compile "org.springframework:spring-context:4.3.6.RELEASE"
