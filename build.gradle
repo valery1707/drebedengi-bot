@@ -57,7 +57,7 @@ dependencies {
 	//Logging
 	compile 'org.slf4j:slf4j-api:1.7.25'
 	runtime 'org.slf4j:jcl-over-slf4j:1.7.25'
-	runtime 'ch.qos.logback:logback-classic:1.2.1'
+	runtime 'ch.qos.logback:logback-classic:1.2.2'
 
 	//Apache commons
 	compile 'org.apache.commons:commons-lang3:3.5'
