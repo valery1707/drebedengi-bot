@@ -81,7 +81,7 @@ dependencies {
 	compile "org.springframework:spring-jdbc:4.3.8.RELEASE"
 	compile "org.springframework:spring-tx:4.3.8.RELEASE"
 	compile "org.springframework:spring-orm:4.3.8.RELEASE"
-	compile "org.springframework.data:spring-data-jpa:1.11.2.RELEASE"
+	compile "org.springframework.data:spring-data-jpa:1.11.3.RELEASE"
 	compile 'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final'
 	compile 'org.hibernate:hibernate-core:5.2.8.Final'
 	compile 'org.hibernate:hibernate-entitymanager:5.2.8.Final'
