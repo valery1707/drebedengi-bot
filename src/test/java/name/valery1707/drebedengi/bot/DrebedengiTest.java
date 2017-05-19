@@ -74,7 +74,7 @@ public class DrebedengiTest {
 		assertThat(response.get().getFailMessage()).isNullOrEmpty();
 		assertThat(response.get().getFailCode()).isNull();
 		assertThat(response.get().isSuccess()).isTrue();
-		assertThat(response.get().getValue()).hasSize(25);
+		assertThat(response.get().getValue()).isNotEmpty();
 	}
 
 	@Test
