@@ -165,7 +165,7 @@ dependencies {
 //Version Eye
 buildscript {
 	dependencies {
-		classpath 'org.standardout:gradle-versioneye-plugin:1.2.0'
+		classpath 'org.standardout:gradle-versioneye-plugin:1.4.0'
 	}
 }
 apply plugin: 'org.standardout.versioneye'
