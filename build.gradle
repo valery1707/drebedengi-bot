@@ -113,7 +113,7 @@ dependencies {
 	compile 'com.squareup.okhttp3:okhttp:3.8.0'
 
 	//Cache
-	compile 'com.github.ben-manes.caffeine:caffeine:2.5.0'
+	compile 'com.github.ben-manes.caffeine:caffeine:2.5.1'
 
 	//Template engine
 	compile 'com.samskivert:jmustache:1.12'
