@@ -10,6 +10,7 @@ import name.valery1707.drebedengi.domain.GetAccessStatusResponse;
 import name.valery1707.drebedengi.domain.GetRecordList;
 import name.valery1707.drebedengi.domain.GetRecordListResponse;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.net.URL;
@@ -78,6 +79,7 @@ public class DrebedengiTest {
 	}
 
 	@Test
+	@Ignore
 	public void testRecordList_filterById() throws Exception {
 		Try<GetRecordListResponse> response = drebedengi.request(
 				new GetRecordList()
