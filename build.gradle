@@ -116,7 +116,7 @@ dependencies {
 	compile 'com.github.ben-manes.caffeine:caffeine:2.5.1'
 
 	//Template engine
-	compile 'com.samskivert:jmustache:1.12'
+	compile 'com.samskivert:jmustache:1.13'
 
 	//Improved Java lib
 	compile 'io.javaslang:javaslang:2.0.6'
