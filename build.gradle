@@ -131,6 +131,18 @@ buildscript {
 		classpath 'com.github.ben-manes:gradle-versions-plugin:0.17.0'
 	}
 }
+dependencyUpdates.resolutionStrategy = {
+	componentSelection { rules ->
+		rules.all { ComponentSelection selection ->
+			boolean rejected = ['alpha', 'beta', 'rc', 'cr', 'm'].any { qualifier ->
+				selection.candidate.version ==~ /(?i).*[.-]${qualifier}[.\d-]*/
+			}
+			if (rejected) {
+				selection.reject('Release candidate')
+			}
+		}
+	}
+}
 
 task wrapper(type: Wrapper) {
 	gradleVersion = "4.0"

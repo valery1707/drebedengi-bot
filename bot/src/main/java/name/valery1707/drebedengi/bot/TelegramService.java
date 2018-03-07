@@ -48,7 +48,9 @@ public class TelegramService {
 
 	@PostConstruct
 	public void init() {
-		bot = TelegramBotAdapter.build(conf.getToken());
+		bot = new TelegramBot
+			.Builder(conf.getToken())
+			.build();
 	}
 
 	@Scheduled(fixedDelay = 10 * 1000)

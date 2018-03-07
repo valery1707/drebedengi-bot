@@ -10,5 +10,5 @@ Build with code coverage:
 
 ```
 #!bash
-./gradlew dependencyUpdates
+./gradlew dependencyUpdates -Drevision=release
 ```
