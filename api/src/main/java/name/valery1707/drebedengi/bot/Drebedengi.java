@@ -1,7 +1,6 @@
 package name.valery1707.drebedengi.bot;
 
-import javaslang.control.Either;
-import javaslang.control.Try;
+import io.vavr.control.Try;
 import name.valery1707.drebedengi.domain.BaseRequest;
 import name.valery1707.drebedengi.domain.BaseResponse;
 import okhttp3.*;

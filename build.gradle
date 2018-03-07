@@ -51,7 +51,7 @@ subprojects {
 		compile libraries_main.commons_validator
 
 		//Improved Java lib
-		compile libraries_main.javaslang
+		compile libraries_main.cool
 
 		//Useful annotations
 		compile libraries_main.useful_ann

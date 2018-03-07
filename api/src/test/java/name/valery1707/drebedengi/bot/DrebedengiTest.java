@@ -1,10 +1,10 @@
 package name.valery1707.drebedengi.bot;
 
-import javaslang.Tuple;
-import javaslang.Tuple2;
-import javaslang.collection.LinkedHashMap;
-import javaslang.collection.List;
-import javaslang.control.Try;
+import io.vavr.Tuple;
+import io.vavr.Tuple2;
+import io.vavr.collection.LinkedHashMap;
+import io.vavr.collection.List;
+import io.vavr.control.Try;
 import name.valery1707.drebedengi.domain.GetAccessStatus;
 import name.valery1707.drebedengi.domain.GetAccessStatusResponse;
 import name.valery1707.drebedengi.domain.GetRecordList;

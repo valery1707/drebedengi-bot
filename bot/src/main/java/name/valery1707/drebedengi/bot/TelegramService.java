@@ -9,7 +9,6 @@ import com.pengrad.telegrambot.model.Update;
 import com.pengrad.telegrambot.request.GetUpdates;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.response.GetUpdatesResponse;
-import javaslang.control.Option;
 import name.valery1707.drebedengi.bot.command.ICommand;
 import name.valery1707.drebedengi.bot.command.RegexpCommand;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -40,7 +40,7 @@ ext {
 
 		hibernate: '5.2.14.Final',
 
-		javaslang: '2.1.0-alpha',
+		vavr: '0.9.2',
 		jackson: '2.9.4',
 	]
 	versions_test = [
@@ -62,7 +62,9 @@ ext {
 		commons_io: "commons-io:commons-io:${versions_main.commons_io}",
 		commons_validator: "commons-validator:commons-validator:${versions_main.commons_validator}",
 
-		javaslang: "io.javaslang:javaslang:${versions_main.javaslang}",
+		cool: [
+			"io.vavr:vavr:${versions_main.vavr}",
+		],
 
 		useful_ann: [
 			"com.google.code.findbugs:jsr305:3.0.2",

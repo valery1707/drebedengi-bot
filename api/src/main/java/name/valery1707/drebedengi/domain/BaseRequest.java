@@ -1,6 +1,6 @@
 package name.valery1707.drebedengi.domain;
 
-import javaslang.collection.List;
+import io.vavr.collection.List;
 
 import java.util.Map;
 import java.util.Objects;
