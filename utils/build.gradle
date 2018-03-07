@@ -1,2 +1,5 @@
+jar {
+	baseName = 'drebedengi-utils'
+}
 dependencies {
 }

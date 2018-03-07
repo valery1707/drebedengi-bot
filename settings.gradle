@@ -1,4 +1,5 @@
 rootProject.name = 'drebedengi-bot'
+include 'api'
 include 'domain'
 include 'utils'
 include 'bot'

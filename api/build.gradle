@@ -1,0 +1,12 @@
+jar {
+	baseName = 'drebedengi-api'
+}
+
+dependencies {
+	//Spring
+	compile "org.springframework:spring-context:$libSpringVersion"
+	compile "org.springframework.boot:spring-boot:$libSpringBootVersion"
+
+	//HTTP client
+	compile "com.squareup.okhttp3:okhttp:3.8.0"
+}

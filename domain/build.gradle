@@ -1,3 +1,6 @@
+jar {
+	baseName = 'drebedengi-domain'
+}
 dependencies {
 	//Database integration
 	compile "org.springframework:spring-jdbc:$libSpringVersion"
