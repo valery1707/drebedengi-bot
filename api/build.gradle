@@ -3,10 +3,8 @@ jar {
 }
 
 dependencies {
-	//Spring
-	compile "org.springframework:spring-context:$libSpringVersion"
-	compile "org.springframework.boot:spring-boot:$libSpringBootVersion"
+	compile libraries_main.spring_context
+	compile libraries_main.spring_boot
 
-	//HTTP client
-	compile "com.squareup.okhttp3:okhttp:3.8.0"
+	compile libraries_main.http
 }

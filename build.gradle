@@ -30,14 +30,8 @@ subprojects {
  
 	group 'name.valery1707.drebedengi'
 	version '0.1.0-SNAPSHOT'
- 
-	buildscript {
-		ext {
-			libSpringVersion = '4.3.8.RELEASE'
-			libSpringBootVersion = '1.5.3.RELEASE'
-			libJUnitVersion = '4.11'
-		}
-	}
+
+	apply from: "${rootDir}/gradle/dependencies.gradle"
  
 	sourceCompatibility = JavaVersion.VERSION_1_8
 	targetCompatibility = JavaVersion.VERSION_1_8
@@ -47,40 +41,28 @@ subprojects {
  
 	dependencies {
 		//Logging
-		compile 'org.slf4j:slf4j-api:1.7.25'
-		runtime 'org.slf4j:jcl-over-slf4j:1.7.25'
-		runtime 'ch.qos.logback:logback-classic:1.2.2'
-		runtime 'ch.qos.logback:logback-core:1.2.2'
+		compile libraries_main.log_api
+		runtime libraries_main.log_impl
 
 		//Apache commons
-		compile 'org.apache.commons:commons-lang3:3.5'
-		compile 'commons-net:commons-net:3.6'
-		compile 'commons-io:commons-io:2.5'
-		compile 'commons-validator:commons-validator:1.6'
+		compile libraries_main.commons_lang
+		compile libraries_main.commons_net
+		compile libraries_main.commons_io
+		compile libraries_main.commons_validator
 
 		//Improved Java lib
-		compile 'io.javaslang:javaslang:2.0.6'
+		compile libraries_main.javaslang
 
 		//Useful annotations
-		compile 'com.google.code.findbugs:jsr305:3.0.2'
-		compile 'org.jetbrains:annotations:15.0'
-		compile 'javax.inject:javax.inject:1'
+		compile libraries_main.useful_ann
 
 		//Validation
-		compile 'javax.validation:validation-api:1.1.0.Final'
-		compile 'org.hibernate:hibernate-validator:5.4.1.Final'
-		compile 'javax.el:javax.el-api:3.0.0'
+		compile libraries_main.validation
 
 		//Testing
-		testCompile "junit:junit:$libJUnitVersion"
-		testCompile "org.mockito:mockito-core:2.8.9"
-		testCompile "org.hamcrest:hamcrest-core:1.3"
-		testCompile "org.hamcrest:hamcrest-library:1.3"
-		testCompile "org.springframework:spring-test:$libSpringVersion"
-		testCompile "org.springframework.security:spring-security-test:4.2.2.RELEASE"
-		testCompile "com.jayway.jsonpath:json-path:2.2.0"
-		testCompile "com.jayway.jsonpath:json-path-assert:2.2.0"
-		testCompile 'org.assertj:assertj-core:3.8.0'
+		testCompile libraries_test.main
+		testCompile libraries_test.spring
+		testCompile libraries_test.json
 	}
 	configurations {
 		all*.exclude group: 'commons-logging'

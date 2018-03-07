@@ -2,19 +2,12 @@ jar {
 	baseName = 'drebedengi-domain'
 }
 dependencies {
-	//Database integration
-	compile "org.springframework:spring-jdbc:$libSpringVersion"
-	compile "org.springframework:spring-tx:$libSpringVersion"
-	compile "org.springframework:spring-orm:$libSpringVersion"
-	compile "org.springframework.data:spring-data-jpa:1.11.3.RELEASE"
-	compile "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final"
-	compile "org.hibernate:hibernate-core:5.2.10.Final"
+	compile libraries_main.spring_jpa
+	compile libraries_main.hibernate_api
 
-	//JSON library
-	compile "com.fasterxml.jackson.core:jackson-annotations:2.8.8"
+	compile libraries_main.json_api
 
-	//Database migration tool
-	compile 'org.flywaydb:flyway-core:4.1.0'
+	compile libraries_main.db_migrate
 }
 
 //Hibernate APT
@@ -30,6 +23,6 @@ buildscript {
 }
 apply plugin: "net.ltgt.apt"
 dependencies {
-	apt 'org.hibernate:hibernate-jpamodelgen:5.2.10.Final'
+	apt "org.hibernate:hibernate-jpamodelgen:${versions_main.hibernate}"
 }
 
