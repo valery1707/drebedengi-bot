@@ -37,12 +37,12 @@ subprojects {
 		}
 	}
  
-	sourceCompatibility = 1.8
-	targetCompatibility = 1.8
+	sourceCompatibility = JavaVersion.VERSION_1_8
+	targetCompatibility = JavaVersion.VERSION_1_8
+	tasks.withType(JavaCompile) {
+		options.encoding = "UTF-8"
+	}
  
-//	configurations {
-//		providedRuntime
-//	}
 	dependencies {
 		//Logging
 		compile 'org.slf4j:slf4j-api:1.7.25'
