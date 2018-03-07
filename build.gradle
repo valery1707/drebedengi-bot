@@ -9,9 +9,11 @@ buildscript {
 
 buildscript {
 	dependencies {
-		classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.8.1'
+		classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.8.2'
 	}
 }
+
+apply plugin: 'java'
 
 subprojects {
 	repositories {
@@ -95,6 +97,45 @@ subprojects {
 			html.enabled = true
 		}
 	}
+}
+
+// https://github.com/ben-manes/caffeine/blob/master/build.gradle
+apply plugin: 'com.github.kt3k.coveralls'
+apply plugin: 'jacoco'
+
+// Only report code coverage for projects that are distributed
+def publishedProjects = subprojects.findAll { it.path != ':ignored' }
+
+task jacocoRootReport(type: JacocoReport, group: 'Coverage reports') {
+	description = 'Generates an aggregate report from all subprojects'
+	dependsOn publishedProjects.test
+
+	additionalSourceDirs = files(publishedProjects.sourceSets.main.allSource.srcDirs)
+	sourceDirectories = files(publishedProjects.sourceSets.main.allSource.srcDirs)
+	classDirectories = files(publishedProjects.sourceSets.main.output)
+	executionData = files(publishedProjects.jacocoTestReport.executionData)
+
+	reports {
+		html.enabled = true // human readable
+		xml.enabled = true // required by coveralls
+	}
+
+	doFirst {
+		executionData = files(executionData.findAll { it.exists() })
+	}
+}
+
+coveralls {
+	sourceDirs = publishedProjects.sourceSets.main.allSource.srcDirs.flatten()
+	jacocoReportPath = "${buildDir}/reports/jacoco/jacocoRootReport/jacocoRootReport.xml"
+}
+
+tasks.coveralls {
+	group = 'Coverage reports'
+	description = 'Uploads the aggregated coverage report to Coveralls'
+
+	dependsOn jacocoRootReport
+	onlyIf { System.env.'CI' }
 }
 
 task wrapper(type: Wrapper) {
