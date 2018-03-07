@@ -1,0 +1,66 @@
+apply plugin: 'war'
+
+buildscript {
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:$libSpringBootVersion")
+	}
+}
+
+dependencies {
+	//Self
+	compile project (':domain')
+	compile project (':utils')
+
+	//Spring
+	compile "org.springframework:spring-context:$libSpringVersion"
+	compile "org.springframework:spring-webmvc:$libSpringVersion"
+	compile "org.springframework.boot:spring-boot:$libSpringBootVersion"
+	compile "org.springframework.boot:spring-boot-autoconfigure:$libSpringBootVersion"
+
+	//Spring security
+	compile "org.springframework.security:spring-security-config:4.2.2.RELEASE"
+	compile "org.springframework.security:spring-security-web:4.2.2.RELEASE"
+	compile "org.aspectj:aspectjweaver:1.8.10"
+	runtime "org.springframework:spring-aspects:$libSpringVersion"
+
+	//Database integration
+	compile "org.springframework:spring-jdbc:$libSpringVersion"
+	compile "org.springframework:spring-tx:$libSpringVersion"
+	compile "org.springframework:spring-orm:$libSpringVersion"
+	compile "org.springframework.data:spring-data-jpa:1.11.3.RELEASE"
+	compile "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final"
+	compile "org.hibernate:hibernate-core:5.2.10.Final"
+	compile "org.hibernate:hibernate-entitymanager:5.2.10.Final"
+	compile "org.hibernate:hibernate-java8:5.2.10.Final"
+	compile "javax.transaction:javax.transaction-api:1.2"
+
+	//JSON library
+	compile "com.fasterxml.jackson.core:jackson-annotations:2.8.8"
+	compile "com.fasterxml.jackson.core:jackson-core:2.8.8"
+	compile "com.fasterxml.jackson.core:jackson-databind:2.8.8"
+	compile "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.8"
+
+	//Servlet container
+	compile "javax.servlet:javax.servlet-api:3.1.0"
+	providedRuntime "org.eclipse.jetty:jetty-webapp:9.4.5.v20170502"
+
+	//JDBC driver (and implicit in-memory database server)
+	runtime "com.h2database:h2:1.4.195"
+	//JDBC Connection pooling
+	compile "org.apache.tomcat:tomcat-jdbc:8.5.15"
+
+	//Bot engine
+	compile "com.github.pengrad:java-telegram-bot-api:2.3.1.2"
+
+	//HTTP client
+	compile "com.squareup.okhttp3:okhttp:3.8.0"
+
+	//Cache
+	compile "com.github.ben-manes.caffeine:caffeine:2.5.1"
+
+	//Template engine
+	compile "com.samskivert:jmustache:1.13"
+}
+
+apply plugin: 'org.springframework.boot'
+//http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-customize-dependency-versions
