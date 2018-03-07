@@ -138,6 +138,18 @@ tasks.coveralls {
 	onlyIf { System.env.'CI' }
 }
 
+// https://github.com/ben-manes/gradle-versions-plugin
+apply plugin: 'com.github.ben-manes.versions'
+buildscript {
+	repositories {
+		jcenter()
+	}
+
+	dependencies {
+		classpath 'com.github.ben-manes:gradle-versions-plugin:0.17.0'
+	}
+}
+
 task wrapper(type: Wrapper) {
 	gradleVersion = "4.0"
 }
